@@ -11,3 +11,8 @@
 
  1. Run: *npm install bootstrap*
  2. Add to style.css *@import "~bootstrap/scss/bootstrap";*
+
+### Task: Add pages
+
+1. *ng generate module core*
+1. *ng generate component header --path=src/app/core --module=core --export*
